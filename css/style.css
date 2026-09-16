@@ -1,0 +1,15 @@
+:root {
+    --font-body: 'Popins', sans-serif;
+    --bg-color: #0D121E;
+    --bg-header: rgba(7, 10, 20, 0.9)
+    --color-light: #E4E4E4;
+    --text-light: #D5D5D5;
+    --bg-btn: #F0B35B;
+    --bg-btn-hover: #rgba(240, 179, 91, 0.6)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

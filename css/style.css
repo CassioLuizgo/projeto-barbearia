@@ -1,15 +1,69 @@
+/*VARIÁVEIS */
 :root {
     --font-body: 'Popins', sans-serif;
     --bg-color: #0D121E;
-    --bg-header: rgba(7, 10, 20, 0.9)
+    --bg-header: rgba(7, 10, 20, 0.9);
     --color-light: #E4E4E4;
     --text-light: #D5D5D5;
     --bg-btn: #F0B35B;
-    --bg-btn-hover: #rgba(240, 179, 91, 0.6)
+    --bg-btn-hover: rgba(240, 179, 91, 0.6);
 }
 
+
+/*RESET*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*===============================================================================*/
+
+/*HEADER*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--bg-header);
+}
+
+.link-logo img {
+    width: 48px;
+
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-nav {
+    font-family: var(--font-body);
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-light);
+}
+
+.btn-primary {
+    display: flex;
+    padding: 1rem;
+    background-color: var(--bg-btn);
+    color: var(--font-body);
+    font-family: var(--font-body);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background-color: var(--bg-btn-hover);
+    transition: 0.3s;
 }

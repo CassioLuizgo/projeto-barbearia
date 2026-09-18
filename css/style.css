@@ -115,3 +115,40 @@ nav {
     font-size: 20px;
     color: var(--text-light);
 }
+
+/*ABOUT*/
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 128px;
+    padding: 3rem 2rem;
+    background-color: var(--bg-color);
+}
+
+.pictures {
+    max-height: 620px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+
+.about-title {
+    font-size: 32px;
+    font-family: var(--font-body);
+    color: var(--text-light);
+}
+
+.about-paragraphys {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: var(--text-light);
+}

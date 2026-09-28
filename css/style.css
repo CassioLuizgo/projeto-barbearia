@@ -157,7 +157,7 @@ nav {
 .services {
     display: flex;
     flex-direction: column;
-    margin: 84px 0px;
+    margin: 120px 0px;
     padding: 0 2rem;
     gap: 84px;
 }
@@ -222,4 +222,62 @@ nav {
     background-color: var(--bg-btn);
     padding: 10px 10px;
     border-radius: 8px;
+}
+
+/*TEAM*/
+.team {
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
+    background-color: var(--bg-color);
+    padding: 4rem 2rem;
+}
+
+.team-title {
+    font-family: var(--font-body);
+    color: var(--color-light);
+    font-size: 32px;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.container-team-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-card-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-name {
+    position: absolute;
+    bottom: 10px;
+    font-family: var(--font-body);
+    font-size: 24px;
+    color: var(--bg-btn);
+}
+
+.team-social-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 0px;
+}
+
+.team-social-links a {
+    width: 24px;
+    color: var(--text-light);
 }

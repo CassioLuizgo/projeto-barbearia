@@ -281,3 +281,52 @@ nav {
     width: 24px;
     color: var(--text-light);
 }
+
+/*UNITS*/
+.units {
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
+    padding: 4rem 2rem;
+    align-items: center;
+}
+
+.units h3 {
+    font-family: var(--font-body);
+    font-size: 32px;
+    color: var(--bg-color);
+}
+
+.container-units {
+    display: flex;
+    flex-direction: row;
+}
+
+.unit {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.unit-img {
+    width: 420px;
+    height: 420px;
+}
+
+.units-adress {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: rgba(8, 11, 22, 0.7);
+    border-radius: 8px;
+    padding: 16px 24px;
+}
+
+.units-adress span {
+    font-family: var(--font-body);
+    font-size: 20px;
+    color: var(--text-light);
+}
